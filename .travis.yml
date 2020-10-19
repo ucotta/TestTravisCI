@@ -4,7 +4,7 @@ language: swift
 #script: xcodebuild clean  build test -scheme TestTravisCI -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.5,name=iPhone 11 Pro Max" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 xcode_project: TestTravisCI.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TestTravisCITests
-xcode_destination: platform=iOS Simulator,OS=13.7,name=iPhone 11 Pro Max
+#xcode_destination: platform=iOS Simulator,OS=13.7,name=iPhone 11
 
 
-script: xcodebuild -project TestTravisCI.xcodeproj -scheme TestTravisCITests -destination platform\=iOS\ Simulator,OS\=14.0,name\=iPhone\ 11\ Pro\ Max test
+script: xcodebuild -project TestTravisCI.xcodeproj -scheme TestTravisCITests -destination platform\=iOS\ Simulator,OS\=13.7,name\=iPhone\ 11 test
