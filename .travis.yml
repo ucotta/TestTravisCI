@@ -8,4 +8,3 @@ xcode_destination: platform=iOS Simulator,OS=13.7,name=iPhone 11 Pro Max
 
 
 script: xcodebuild -project TestTravisCI.xcodeproj -scheme TestTravisCITests -destination platform\=iOS\ Simulator,OS\=14.0,name\=iPhone\ 11\ Pro\ Max test
-# #
